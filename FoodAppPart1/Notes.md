@@ -18,3 +18,8 @@ Pipes:
 Functions  () xxxx    symbol: |
 used for presenting a 'formatted output'
 eg: displaying username in capital, date format, currency, dollars, etc
+
+**********************************************
+session 3
+custom pipe:
+user defined pipes
