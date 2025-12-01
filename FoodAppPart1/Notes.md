@@ -1,0 +1,20 @@
+Data Binding (4 types)
+interpolation {{}}
+attribute/style  [src]
+event binding  (eventname) (click)
+two-way binding [(var)]
+
+
+app component - container component
+to create component: ng g c component_name
+to explore: decorator in ts
+@ decorator used in components
+
+each component has 'selector name'
+
+to explore: two-way binding
+
+Pipes:
+Functions  () xxxx    symbol: |
+used for presenting a 'formatted output'
+eg: displaying username in capital, date format, currency, dollars, etc
