@@ -23,3 +23,5 @@ eg: displaying username in capital, date format, currency, dollars, etc
 session 3
 custom pipe:
 user defined pipes
+pipe name is used where we need to integratte...
+class name of the pipe is used to import on the ts file
