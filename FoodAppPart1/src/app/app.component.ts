@@ -3,14 +3,16 @@ import { RouterOutlet } from '@angular/router';
 import { BasicfooddataComponent} from './basicfooddata/basicfooddata.component';
 import { FooditemsummaryComponent } from './fooditemsummary/fooditemsummary.component'
 import { CommonModule } from '@angular/common';
+import { RatingPipe } from './rating.pipe';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, BasicfooddataComponent, FooditemsummaryComponent ],
+  imports: [RouterOutlet, BasicfooddataComponent, FooditemsummaryComponent, RatingPipe ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'FoodAppPart1';
+  foodRating:number=3.5;
 }
