@@ -25,3 +25,10 @@ custom pipe:
 user defined pipes
 pipe name is used where we need to integratte...
 class name of the pipe is used to import on the ts file
+
+DIRECTIVES:
+used to change or edit the DOM  like apply styles and add behaviors dynamically without creating another html files for changes...it allows u to edit the html dom from the angular itself
+types:
+structural directive - *ngIf, *ngfor,...
+attribute directive
+custom directive
