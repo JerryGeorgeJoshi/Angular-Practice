@@ -37,3 +37,4 @@ BOOTSTRAP:
 container
 grid 
 card
+when using *ngFor or *ngIf...import 'commonModule' in tht respective TS file

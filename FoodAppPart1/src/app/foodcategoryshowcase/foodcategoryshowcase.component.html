@@ -1,9 +1,22 @@
-<div *ngFor = "let fooditem of categories">
-<div class="card" style="width: 18rem;">
-  <img [src]="fooditem.image" class="card-img-top" [alt]="fooditem.image">
-  <div class="card-body">
-    <h5 class="card-title">{{fooditem.title}}</h5>
-    <p class="card-text">{{fooditem.description}}</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 mb-4" *ngFor="let item of categories">
+      <div class="card h-100 d-flex flex-column">
+        <img
+          class="card-img-top food-image"
+          [src]="item.image"
+          alt="Card image cap" width="200px" height="300px"
+        />
+
+
+        <div class="card-body">
+          <h5 class="card-title">{{ item.title }}</h5>
+          <p class="card-text">
+            {{ item.description }}
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
