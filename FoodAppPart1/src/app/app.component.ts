@@ -5,11 +5,12 @@ import { FooditemsummaryComponent } from './fooditemsummary/fooditemsummary.comp
 import { CommonModule } from '@angular/common';
 import { RatingPipe } from './rating.pipe';
 import { FoodcategorylistComponent } from './foodcategorylist/foodcategorylist.component';
+import { FoodcategoryshowcaseComponent } from './foodcategoryshowcase/foodcategoryshowcase.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, BasicfooddataComponent, FooditemsummaryComponent, RatingPipe, FoodcategorylistComponent],
+  imports: [RouterOutlet, BasicfooddataComponent, FooditemsummaryComponent, RatingPipe, FoodcategorylistComponent, FoodcategoryshowcaseComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

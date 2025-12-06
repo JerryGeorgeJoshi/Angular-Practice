@@ -32,3 +32,8 @@ types:
 structural directive - *ngIf, *ngfor,...
 attribute directive
 custom directive
+
+BOOTSTRAP:
+container
+grid 
+card
