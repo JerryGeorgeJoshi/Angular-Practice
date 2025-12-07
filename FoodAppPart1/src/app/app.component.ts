@@ -6,11 +6,15 @@ import { CommonModule } from '@angular/common';
 import { RatingPipe } from './rating.pipe';
 import { FoodcategorylistComponent } from './foodcategorylist/foodcategorylist.component';
 import { FoodcategoryshowcaseComponent } from './foodcategoryshowcase/foodcategoryshowcase.component';
+import { HomeComponent } from './components/home/home.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, BasicfooddataComponent, FooditemsummaryComponent, RatingPipe, FoodcategorylistComponent, FoodcategoryshowcaseComponent],
+  imports: [RouterOutlet, BasicfooddataComponent, FooditemsummaryComponent, RatingPipe, FoodcategorylistComponent, FoodcategoryshowcaseComponent,NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

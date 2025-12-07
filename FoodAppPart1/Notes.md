@@ -38,3 +38,9 @@ container
 grid 
 card
 when using *ngFor or *ngIf...import 'commonModule' in tht respective TS file
+
+ROUTING:
+create a navbar component - paste the bootstrap navbar to html file
+then import the routerlink and routerlinkactive to respective ts file
+go to app.routes.ts and configure it by setting 'path' and 'component'
+now mention the selector name of navbar at main html file (component.html) along with <router-outlet></router-outlet>
