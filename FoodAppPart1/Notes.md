@@ -44,3 +44,9 @@ create a navbar component - paste the bootstrap navbar to html file
 then import the routerlink and routerlinkactive to respective ts file
 go to app.routes.ts and configure it by setting 'path' and 'component'
 now mention the selector name of navbar at main html file (component.html) along with <router-outlet></router-outlet>
+
+READIG DATA FROM FILE: (session 6)
+import foodDataFromFile from "foodData"
+app.routs.ts plays a crucial role in routing or navigation
+route parameters are for communicating within the components..(eg. id in json data file(unique ones))
+-----done with session 6 ------------
