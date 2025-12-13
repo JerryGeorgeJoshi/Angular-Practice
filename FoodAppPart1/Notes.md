@@ -62,4 +62,38 @@ with the help of constructor in a component , create a obj for the service class
 (also don't forget to write code in tht respective html file)
 RXJS INTRO--
 ---------done with session 7--------
+-------------JUST WATCHING: -------------
+asyc pipes(transforming the data in ts)  can be used like subscribe in rxjs.
+use $ symbol at the end of the variable for obervable variable.
+
+OPERATORS IN RXJS:
+used to filtering or modifying the incoming data from server
+
+pipe() in rxjs:
+pipe() has the ability to handle multiple operators and errors
+
+INTERFCAE:
+ng g i interface_name
+a single ts file is created
+export interfacename is presented there (starting letter I)
+use that as data type for any other component
+
+subject is another operator in rxjs
+catchError is also in rxjs
+of also
+finalize also
+
+QUESTIONS******************
+wht is lifecycle
+wht r the life cycle mehtods u know in angular
+when to use which?
+which lifecyle fires first and next?
+
+SIGNALS:
+used to avoid entire reloading of components...just the part which undergoes changes should be reloaded
+optimization done--performance
+
+
+
+
 
