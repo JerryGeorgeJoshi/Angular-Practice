@@ -50,3 +50,16 @@ import foodDataFromFile from "foodData"
 app.routs.ts plays a crucial role in routing or navigation
 route parameters are for communicating within the components..(eg. id in json data file(unique ones))
 -----done with session 6 ------------
+Services:
+sharing common functinality to components is called as service.
+it is responsible for to avoid repetion of data between components.
+fetch of data from external API
+command: ng g s service_name
+
+REST API:
+create an object for clienthttp in service and paste the link(u also need to import http client,provide httpclient also)
+with the help of constructor in a component , create a obj for the service class and access tht method and assign tht data to a variable here in this component
+(also don't forget to write code in tht respective html file)
+RXJS INTRO--
+---------done with session 7--------
+

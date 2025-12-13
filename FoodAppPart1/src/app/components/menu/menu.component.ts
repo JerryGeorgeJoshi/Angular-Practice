@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import foodDataFromFile from '../../../../public/foodmenu.json'
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
+import { FoodMenuService } from '../../SharedServices/food-menu.service';
 @Component({
   selector: 'app-menu',
   standalone: true,
@@ -11,8 +12,8 @@ import { RouterLink } from '@angular/router';
 })
 export class MenuComponent {
   foodData:any=[];
-  constructor(){
-    this.foodData=foodDataFromFile;
+  constructor(private objFoodMenuService:FoodMenuService){
+    this.foodData=objFoodMenuService.getFoodMenuDataFromFile()
     console.log(this.foodData)
 
   }
